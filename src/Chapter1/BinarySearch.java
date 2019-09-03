@@ -28,7 +28,7 @@ public class BinarySearch {// in this case, it only works for sorted array
     public static void main(String[] args) {
         int[] myList = {1, 3, 5, 6, 7 ,9,10,11};
 
-        System.out.println(binarySearch(myList, 2)); // 1
+        System.out.println(binarySearch(myList, 3)); // 1
 //        System.out.println(binarySearch(myList, -1)); // null
     }
 

@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7403c09f-1b59-4e3e-b7cb-87b92358398e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Chapter1/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter2/SelectionSortArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter2/SelectionSortArrayList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1/BinarySearch.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +47,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.SelectionSortArray">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Chapter1.BinarySearch" />
       <module name="Grokking" />
@@ -59,8 +61,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SelectionSortArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter2.SelectionSortArray" />
+      <module name="Grokking" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Chapter2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelectionSortArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter2.SelectionSortArrayList" />
+      <module name="Grokking" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Chapter2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SelectionSortArray" />
+        <item itemvalue="Application.SelectionSortArrayList" />
         <item itemvalue="Application.BinarySearch" />
       </list>
     </recent_temporary>
@@ -75,7 +105,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567341936234</updated>
-      <workItem from="1567341938165" duration="3567000" />
+      <workItem from="1567341938165" duration="10385000" />
     </task>
     <servers />
   </component>
@@ -92,5 +122,21 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Chapter2/SelectionSortArrayList.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Chapter2/SelectionSortArray.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
