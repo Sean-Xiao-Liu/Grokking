@@ -26,7 +26,7 @@ public class SelectionSortArray {
         int[] newArrWithoutSmallest = new int[arr.length - 1];
         for (int i = 0; i < arr.length; i++) {
             if (i < smallestIndex) {
-                newArrWithoutSmallest[i] = arr[i];
+                newArrWithoutSmallest[i] = arr[i]; // keep the int on the left of the smallest
             } else if (i > smallestIndex) {
                 newArrWithoutSmallest[i - 1] = arr[i];// pull out the smallest int, the int on the right on the smallest int would move left
             }
@@ -43,7 +43,7 @@ public class SelectionSortArray {
             int smallestIndex = findSmallest(arr);
             newArr[i] = arr[smallestIndex];
 
-            arr = getNewArrWithoutSmallest(arr, smallestIndex);// remove the smallest int from the array
+            arr = getNewArrWithoutSmallest(arr, smallestIndex);// remove the smallest int from the array and generate a new array
         }
 
         return newArr;
